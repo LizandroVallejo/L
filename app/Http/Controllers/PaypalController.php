@@ -64,8 +64,8 @@ class PaypalController extends Controller
                             "landing_page"=> "LOGIN",
                             "shipping_preference"=> "SET_PROVIDED_ADDRESS",
                             "user_action"=> "PAY_NOW",
-                            "return_url"=> "http://192.168.21.132/ejemplo_1/public/paypal/respuesta",
-                            "cancel_url"=> "http://192.168.21.132/ejemplo_1/public/paypal/cancelado"
+                            "return_url"=> "http://127.0.0.1:8000/paypal/respuesta",
+                            "cancel_url"=> "http://127.0.0.1:8000/paypal/cancelado"
                         ]
                         
                     ]
